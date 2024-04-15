@@ -25,6 +25,7 @@ class _NetworkPluginState extends State<NetworkPlugin> {
     return Stack(
       children: [
         Container(
+          height: 800,
           color: Colors.grey.shade50,
           padding: const EdgeInsets.symmetric(horizontal: 30),
           child: SingleChildScrollView(
