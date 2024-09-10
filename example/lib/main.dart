@@ -42,9 +42,6 @@ class _HomePageState extends State<HomePage> {
 
           child:Column(
             children: [
-              SizedBox(height: 30,),
-              Text("flutter example", style: TextStyle(fontSize: 25),),
-              SizedBox(height: 30,),
               Text("example of network plugin.", style: TextStyle(
                 fontSize: 30
               ),),
