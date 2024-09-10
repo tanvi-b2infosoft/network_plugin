@@ -1,6 +1,6 @@
 name: network_plugin
 description: "A Flutter widget for network_plugin."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/tanvi-b2infosoft/network_plugin.git
 
 environment:

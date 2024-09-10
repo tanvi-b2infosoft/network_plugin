@@ -6,3 +6,6 @@ changes in design
 
 ## 0.0.3
 changes in toggle button
+
+## 0.0.4
+changes in design
