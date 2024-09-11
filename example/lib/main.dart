@@ -34,23 +34,14 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-
-        child:SingleChildScrollView(
-
-
-          child:Column(
-            children: [
-              Text("example of network plugin.", style: TextStyle(
-                fontSize: 30
-              ),),
-              NetworkPlugin()
-            ],
-          ),
-        )
-
-
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+      
+          child:NetworkPlugin()
+      
+      
+        ),
       ),
     );
   }

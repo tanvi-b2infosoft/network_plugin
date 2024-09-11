@@ -1,6 +1,6 @@
 name: network_plugin
 description: "A Flutter widget for network_plugin."
-version: 0.0.4
+version: 0.0.6
 homepage: https://github.com/tanvi-b2infosoft/network_plugin.git
 
 environment:
@@ -10,11 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
